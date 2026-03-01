@@ -20,3 +20,5 @@ https://pricetracker-pro-python-arn3gtwmzycoi26ingsl9s.streamlit.app/
 1. Clone the repository:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/PriceTracker-Pro-Python.git](https://github.com/YOUR_USERNAME/PriceTracker-Pro-Python.git)
+## ⚠️ Known Limitations & Anti-Scraping
+Some e-commerce websites implement advanced anti-bot protections (Cloudflare, Javascript Challenges, or strict User-Agent filtering). 
