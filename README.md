@@ -10,12 +10,17 @@ https://pricetracker-pro-python-arn3gtwmzycoi26ingsl9s.streamlit.app/
 * **Real-time Budget Tracking:** Interactive metrics that calculate the difference between store prices and user budgets.
 * **Adaptive UI:** Fully responsive dashboard that supports both Dark and Light modes.
 * **Data Sanitization:** Robust logic to handle different currency formats and price structures.
-
+**Web Scraping Engine:** Utilizes automated scripts to extract real-time pricing data from e-commerce sites.
+**Price Threshold Alerts:** Logic-based notifications when products drop below a user-defined budget.
+**Historical Tracking:** Monitors price fluctuations over time to identify the best purchasing windows.
+**Clean Architecture:** Separated concerns between the scraping logic and the user interface.
+  
 ## 🛠️ Tech Stack
 * **Backend:** Python 3.x
-* **Scraping:** BeautifulSoup4 & Requests
+* **Scraping:** BeautifulSoup4 & Requests / Selenium
 * **Frontend:** Streamlit (Web Framework)
-
+* **Data Storage:** SQLite3 / CSV / PDF
+ 
 ## 📦 Installation
 1. Clone the repository:
    ```bash
